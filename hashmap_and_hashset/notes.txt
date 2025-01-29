@@ -1,0 +1,20 @@
+=> LinkedHashMap:
+LinkedHashMap<K, V> lhm = new LinkedHashMap<>();
+keys are inserted in order
+doubly linked list is used in implementation to maintain order
+
+=> TreeMap:
+TreeMap<K, V> tm = new TreeMap<>();
+keys are sorted
+put, get, remove are O(logn)
+red black trees are used in implementation 
+
+=> LinkedHashSet:
+LinkedHashSet<String> lhs = new LinkedHashSet<>();
+ordered using doubly linked list
+
+=> TreeSet:
+TreeSet<String> ts = new TreeSet<>();
+sorted in ascending order
+null values are not allowed
+Implemented in the form of TreeMap

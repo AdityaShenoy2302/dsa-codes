@@ -1,0 +1,12 @@
+Operations:
+=> addFirst - O(1)
+=> addLast - O(1)
+=> print - O(n)
+
+LL in collections framework:
+=> create - LinkedList<Integer> ll = new LinkedList<>();
+-> ll.addLast(1)
+-> ll.addFirst(2)
+-> System.out.println(ll);
+-> ll.removeLast();
+-> ll.removeFirst();
