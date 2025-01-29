@@ -1,0 +1,19 @@
+Strings are immutable
+
+str.length() 
+str.charAt()
+str.trim() // removes leading and trailing whitespaces
+str.split(" ") // return  an array of objects where the delimitter is a whitespaces
+str.contains(ch)
+s1.equals(s2)
+str.substring(si, ei)
+str.replace(oldChar, newChar)
+sb.toString()
+sb.append(ch)
+Character.toUpperCase(ch)
+
+str1.compareTo(str2)
+-> 0: equal
+-> <0: -ve - str1 < str2
+-> >0: +ve - str1 > str2
+str1.compareToIgnoreCase(str2) -> treats capital and small letters same
