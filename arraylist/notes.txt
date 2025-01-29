@@ -1,0 +1,9 @@
+-> Dynamic in size
+-> sorting: Collections.sort(list)
+
+Operations:
+=> Add element: O(1)
+=> Get element: O(1)
+=> Remove element: O(n)
+=> Set element at index: O(n)
+=> Contains element: O(n) 

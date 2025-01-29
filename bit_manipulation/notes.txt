@@ -1,0 +1,24 @@
+1) LSB => & with 1
+2) reach ith bit => 1<<i (we will reach ith bit with 1 in the ith bit)
+3) get ith bit => n & (1<<i)
+4) set ith bit => n | (1<<i)
+5) clear ith bit => n & ~(1<<i)
+6) update ith bit:
+   => use clear_ithBit and set_ithBit functions
+   => clear_ithBit -> n | (newBit << i) 
+7) last i bits 0 => (~0) << i
+8) clear last i bits => n & ((~0)<<i)
+9) 2^i - 1 => (1<<i) - 1 -> to get 1's till i-1 positons and then 0's
+10) let n be 2^x then => n & (n-1) == 0
+11) we require 1+logn bits to represent any decimal number
+
+
+-> The expression -~x will add 1 to an integer x
+   Since:
+        -x = ~x + 1
+        => -(~x) = x + 1 // substitute ~x in place of x
+
+-> use bitwise OR operator with empty string to convert uppercase character to lowercase character
+   => (char) ch | " "
+
+

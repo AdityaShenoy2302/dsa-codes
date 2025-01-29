@@ -1,0 +1,8 @@
+dataType arrayName[] = new dataType[size];
+int marks[] = new int[50];
+int numbers[] = {1, 2, 3};
+String fruits[] = {"mango", "apple", "banana"};
+public static void update(int marks[]) => array as a parameter
+
+In Java, arrays are passed by reference, but it's more accurate to say they are passed by value of the reference.
+This means that when you pass an array to a method, the reference (or memory address) to the array is passed by value.
