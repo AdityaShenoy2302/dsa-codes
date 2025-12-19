@@ -1,0 +1,12 @@
+add => O(1) -> enque
+remove => O(1) -> dequeue
+peek => O(1)
+
+add at rear
+remove from front
+
+we cannot make objects of interfaces
+in jcf, queue is an interface not a class
+it uses 2 LinkedList or ArrayDeque class
+
+ArrayDeque is generally faster than LinkedLists but not thread-safe as it is not synchronized.
