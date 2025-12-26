@@ -43,14 +43,15 @@ public class topViewOfTree {
                     map.put(curr.hd, curr.node);
                 }
 
+                min = Math.min(min, curr.hd);
+                max = Math.max(max, curr.hd);
+
                 if (curr.node.left != null) {
                     q.add(new Info(curr.node.left, curr.hd - 1));
-                    min = Math.min(min, curr.hd - 1);
                 }
 
                 if (curr.node.right != null) {
                     q.add(new Info(curr.node.right, curr.hd + 1));
-                    max = Math.max(max, curr.hd + 1);
                 }
             }
         }
@@ -72,3 +73,4 @@ public class topViewOfTree {
         topView(root);
     }
 }
+
